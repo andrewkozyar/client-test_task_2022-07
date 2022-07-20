@@ -1,0 +1,65 @@
+@import url(../../App.scss);
+
+$inputBorder: 1px solid #F1F1F1;
+
+%searchInputsStyles {
+  left: 130px;
+  top: 132px;
+  background: #FFFFFF;
+  border-top: $inputBorder;
+  border-bottom: $inputBorder;
+  outline: none;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.searchFormBody {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.searchInput {
+  @extend %searchInputsStyles;
+  width: 237px;
+  height: 44px;
+  border-right-style: none;
+  border-left: $inputBorder;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  line-height: 17px;
+  padding-left: 16px;
+}
+
+.searchParam {
+  @extend %searchInputsStyles;
+  width: 163px;
+  height: 48px;
+  border-left-style: none;
+  border-right: $inputBorder;
+  font-style: normal;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  option {
+    font-family: 'Montserrat';
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    text-transform: uppercase;
+  }
+}
+
+.searchSubmitBtn {
+  width: 48px;
+  height: 48px;
+  background: #3A80BA;
+  border-radius: 8px;
+  margin-left: 12px;
+  outline: none;
+  border: none;
+}
+
+.verticalLine {
+  border-left: $inputBorder;
+  display: inline;
+}

@@ -1,0 +1,70 @@
+@import url(../../App.scss);
+
+.informTitleValue {
+  float: left;
+  height: 38px;
+  background: #3A80BA;
+  margin-left: 1px;
+  padding: 5px 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.listBody {
+  width: 1180px;
+  height: 495px;
+  margin: 16px auto;
+  border-radius: 10px;
+}
+
+.blockNumberWidth {
+  width: (93 - 24) / 1180 * 100%;
+}
+.transactionIdWidth {
+  width: (140 - 24) / 1180 * 100%;
+}
+.senderAddressWidth {
+  width: (138 - 24) / 1180 * 100%;
+}
+.recipientsAddressWidth {
+  width: (170 - 24) / 1180 * 100%;
+}
+.blockInformationWidth {
+  width: (137 - 24) / 1180 * 100%;
+}
+.dateWidth {
+  width: (124 - 24) / 1180 * 100%;
+}
+.valueWidth {
+  width: (242 - 24) / 1180 * 100%;
+}
+.transactionFeeWidth {
+  width: (128 - 24) / 1180 * 100%;
+}
+
+.firstLeftItemBlock {
+  border-top-left-radius: 10px;
+}
+
+.firstRightItemBlock {
+  border-top-right-radius: 10px;
+}
+
+.noTransactions {
+  width: 1180px;
+  height: 49px;  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  justify-content: center;
+  display: flex;
+  padding-top: 150px;
+  color: #000;
+}
+
