@@ -43,7 +43,7 @@ const TransactionList = observer( () => {
         <div className='transactionIdWidth informTitleValue'>Transaction ID</div>
         <div className='senderAddressWidth informTitleValue'>Sender address</div>
         <div className='recipientsAddressWidth informTitleValue'>Recipients address</div>
-        <div className='blockInformationWidth informTitleValue'>Block information</div>
+        <div className='blockConfirmationsWidth informTitleValue'>Block confirmations</div>
         <div className='dateWidth informTitleValue'>Date</div>
         <div className='valueWidth informTitleValue'>Value</div>
         <div className='transactionFeeWidth informTitleValue firstRightItemBlock'>Transaction Fee</div>

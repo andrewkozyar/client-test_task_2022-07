@@ -7,7 +7,6 @@ import rightPassiveArrowIcon from '../../static/rightPassiveArrowIcon.svg'
 import rightActiveArrowIcon from '../../static/rightActiveArrowIcon.svg'
 import { Context } from '../..';
 import { observer } from 'mobx-react-lite';
-import { getTransactionPagesCount } from '../../http/transactionApi';
 
 const PaginationPages = observer(() => {
   const { transactionStore } = useContext(Context);

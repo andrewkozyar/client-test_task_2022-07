@@ -21,7 +21,3 @@ export const getTransactions = async (
   return data;
 }
 
-export const getTransactionPagesCount = async () => {
-  const { data } = await $host.get('transactions/pages-count')
-  return data;
-}

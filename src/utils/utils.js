@@ -30,7 +30,7 @@ export const getPageButtons = (pagesLength, currentPage) => {
       currentPage < pagesLength - 2 && 
       pagesLength > 5 && 
       (pages.includes('firstDots') || currentPage === 2 ? pages.length === 5 : pages.length === 4) && 
-      i < pagesLength - 2
+      i < pagesLength - 1
     ) {
       pages.push('secondDots');
     }

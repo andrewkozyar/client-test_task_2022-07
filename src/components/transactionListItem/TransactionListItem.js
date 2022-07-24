@@ -7,7 +7,7 @@ const TransactionListItem = observer (({ transaction: {
   transactionId,
   senderAddress,
   recipientsAddress,
-  blockInformation,
+  blockConfirmations,
   date,
   value,
   transactionFee,
@@ -23,7 +23,7 @@ const TransactionListItem = observer (({ transaction: {
       </div>
       <div className={(isPair ? 'informPairItem' : 'informNotPairItem') + ' senderAddressWidth transactionListItemBlock' }>{senderAddress} </div>
       <div className={(isPair ? 'informPairItem' : 'informNotPairItem') + ' recipientsAddressWidth transactionListItemBlock' }>{recipientsAddress} </div>
-      <div className={(isPair ? 'informPairItem' : 'informNotPairItem') + ' blockInformationWidth transactionListItemBlock' }>{blockInformation} </div>
+      <div className={(isPair ? 'informPairItem' : 'informNotPairItem') + ' blockConfirmationsWidth transactionListItemBlock' }>{blockConfirmations} </div>
       <div className={(isPair ? 'informPairItem' : 'informNotPairItem') + ' dateWidth transactionListItemBlock' }>{date} </div>
       <div className={(isPair ? 'informPairItem' : 'informNotPairItem') + ' valueWidth transactionListItemBlock' }>{value} </div>
       <div className={(isPair ? 'informPairItem ' : 'informNotPairItem ') +
